@@ -1,1 +1,1 @@
-"# django-job-board" 
+Job Board Project
