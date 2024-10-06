@@ -16,7 +16,7 @@ class Job(models.Model): # table
     Vacancy = models.IntegerField(default=1)
     salary = models.IntegerField(default=0)
     experience = models.IntegerField(default=1)
-    category = models.ForeignKey("Category",on_delete=models.CASCADE)
+    category = models.ForeignKey("Category",on_delete=models.CASCADE) # many to many relationship
     
     
     def __str__(self):
