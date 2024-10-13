@@ -34,3 +34,8 @@ Contact
 Home 
 
 Users Login
+
+
+static files : [frondend] images , css , javascript
+media files : [Upload] Images 
+
